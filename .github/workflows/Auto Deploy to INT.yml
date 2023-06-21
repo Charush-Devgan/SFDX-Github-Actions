@@ -1,9 +1,10 @@
-name: English Live - Auto Deploy to INT with tests
+name: English Live - Deploy to INT Sandbox with tests
 
 on:
   push:
     branches:
       - develop
+  workflow_dispatch:
 
 jobs:
   Deploy-To-INT:
