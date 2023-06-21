@@ -1,4 +1,4 @@
-name: Validate Package CheckOnly
+name: English Live - Validate Package CheckOnly
 
 on: [workflow_dispatch]
 
