@@ -1,4 +1,4 @@
-name: Deploy Package Without Tests
+name: English Live - Deploy Package Without Tests
 
 on: [workflow_dispatch]
 
