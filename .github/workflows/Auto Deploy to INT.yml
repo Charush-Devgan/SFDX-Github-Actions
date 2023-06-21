@@ -1,4 +1,4 @@
-name: Auto Deploy to INT
+name: English Live - Auto Deploy to INT
 
 on:
   push:
