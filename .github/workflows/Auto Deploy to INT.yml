@@ -1,9 +1,9 @@
-name: English Live - Auto Deploy to INT
+name: English Live - Auto Deploy to INT with tests
 
 on:
   push:
     branches:
-      - int
+      - develop
 
 jobs:
   Deploy-To-INT:
@@ -16,7 +16,7 @@ jobs:
       - name: Checkout source code
         uses: actions/checkout@v3
         with:
-          ref: int
+          ref: develop
           fetch-depth: 0
       - name: Install Salesforce CLI
         run: >        
