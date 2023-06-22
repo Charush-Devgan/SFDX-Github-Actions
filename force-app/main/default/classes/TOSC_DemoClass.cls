@@ -10,6 +10,6 @@
 **/
 public with sharing class TOSC_DemoClass {
     public TOSC_DemoClass() {
-        System.debug('Deployed!!');
+        System.debug('Deployed!!!');
     }
 }
