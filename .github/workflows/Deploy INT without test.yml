@@ -1,6 +1,12 @@
 name: Deploy to INT sandbox without test classes
 
-on: [workflow_dispatch]
+on: 
+  push:
+    branches:
+      - develop
+    paths:
+      - 'force-app/**'
+  workflow_dispatch:
 
 jobs:
   Deploy-INT:

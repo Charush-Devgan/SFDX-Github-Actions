@@ -1,11 +1,6 @@
 name: English Live - Deploy to INT Sandbox with tests
 
 on:
-  push:
-    branches:
-      - develop
-    paths:
-      - 'force-app/**'
   workflow_dispatch:
 
 jobs:
